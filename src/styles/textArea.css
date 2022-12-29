@@ -1,0 +1,25 @@
+.textArea--geral{
+    padding: 16px;
+    border: 2px solid var(--grey4);
+    background-color: var(--whiteFixed);
+    border-radius: 3px;
+    font-weight: var(--text2-weight);
+    font-size: var(--text1-size);
+    line-height: var(--text2-line);
+    color: var(--grey2);
+    resize: none;
+    font-family: var(--fontF);
+}
+
+.textArea--geral:focus{
+    outline: 0;
+    border: 2px solid var(--brand1);
+    border-color: var(--brand1);
+    font-weight: var(--text2-weight);
+    font-size: var(--text1-size);
+    line-height: var(--text2-line);
+}
+
+.textArea--geral::placeholder{
+    font-family: var(--fontF);
+}

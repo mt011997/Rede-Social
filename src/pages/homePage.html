@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/component.css">
+    <link rel="stylesheet" href="/src/styles/homePage.css">
+    <link rel="stylesheet" href="/src/styles/input.css">
+    <link rel="stylesheet" href="/src/styles/textArea.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <title>HomePage</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>TechPosters</h1>
+        </div>
+        <div class="nav">
+            <button class="logOut">Sair</button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Estrutura 1 -->
+        <div class="container">
+            <div class="main__container">
+                <div class="main__container--img">
+                </div>
+                <div class="main__container--dados">
+                </div>
+                <div class="main__container--seguidores">
+                </div>
+            </div>
+
+            <!-- Estrutura 2 -->
+
+            <div class="main__posts">
+                <form>
+                    <input class="input--geral" type="text" name="postUser" id="postUser" placeholder="Digite o título do post">
+                    <textarea class="textArea--geral" name="postDescricao" id="postDescricao" cols="0" rows="0" placeholder="Digite a descrição do post"></textarea>
+                    <button id="postar">Postar</button>
+                </form>
+            </div>
+        </div>
+        <!-- Estrutura 3 -->
+
+        <aside class="main__sugest">
+
+            <h2>Sugestões para você seguir</h2>
+
+            <ul class="sugest__container">
+
+                <!-- <li class="sugest--user">
+                    <div class="userImg">
+                        <img src="/src/assets/avatar2.png" alt="Avatar user">
+                    </div>
+                    <div class="userDados">
+                        <h2>Matheus Oliveira</h2>
+                        <span>Bbla bla bla</span>
+                    </div>
+                    <div class="userSeguir">
+                        <button>Seguir</button>
+                    </div>
+                </li> -->
+                                
+            </ul>
+        </aside>
+
+        <!-- Estrutura 4 -->
+
+        <h2 class="tituloPost">Posts</h2>
+
+        <ul class="main__postagens">
+
+            <!-- <li class="postagens--card">
+                <div class="cardImg">
+                    <img src="/src/assets/avatar2.png" alt="Avartar imagem">
+                </div>
+                <div class="cardDados">
+                    <h3>Nome Usuário</h3>
+                    <p>Trabalho do Usuário</p>
+                </div>
+                <div class="cardPost">
+                    <h2>Como criar um interface simples e agradável utilizando boas práticas de design</h2>
+                    <span>Hoje vamos conversar sobre como criar uma interface agradável mesmo sem ter um design pronto feito por um profissional de UI design.
+                    </span>
+                </div>
+                <div class="cardRodape">
+                    <button>Abrir Post</button>
+                    <img src="/src/assets/heartBlack.png" alt="Coração curtida">
+                    <span>0</span>
+                </div>
+            </li> -->
+
+        </ul>
+
+        <!-- Modal -->
+
+        <div class="modal hidden">
+            <!-- <section class="modal--bcg">
+                <div class="modal--container">
+                    <div class="modal--cardImg">
+                        <img src="/src/assets/avatar2.png" alt="Avartar imagem">
+                    </div>
+                    <div class="modal--cardDados">
+                        <h3>Matheus Gonçalves de Oliveira</h3>
+                        <p>Trabalho do Usuário testando </p>
+                    </div>
+                    <div class="modal--close">
+                        <span>X</span>
+                    </div>
+                    <div class="modal--cardPost">
+                        <h2>Como criar um interface simples e agradável utilizando boas práticas de design</h2>
+                        <span>Hoje vamos conversar sobre como criar uma interface agradável mesmo sem ter um design pronto feito por um profissional de UI design.
+                        </span>
+                    </div>
+                </div>
+            </section> -->
+        </div>
+
+
+    </main>
+    <script type="module" src="/src/scripts/homePage.js"></script>
+</body>
+</html>

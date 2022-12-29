@@ -1,0 +1,14 @@
+.input--geral{
+    padding: 16px;
+    border: 2px solid var(--grey4);
+    background-color: var(--whiteFixed);
+    border-radius: 3px;
+    font-size: var(--text1-size);
+    color: var(--grey2);
+}
+
+.input--geral:focus {
+    outline: 0;
+    border: 2px solid var(--brand1);
+    border-color: var(--brand1);
+}

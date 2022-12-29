@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/component.css">
+    <link rel="stylesheet" href="/src/styles/cadastro.css">
+    <link rel="stylesheet" href="/src/styles/input.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <nav>
+
+        <div class="logo">
+            <h1>TechPosters</h1>
+        </div>
+
+        <div class="nav">
+            <a class="nav__icon1" href="/index.html">Login</a>
+            <a class="nav__icon2" href="/src/pages/cadastro.html">Registro</a>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="container__header">
+                <h2>Cadastro</h2>
+                <a href="/index.html">Voltar</a>
+            </div>
+
+            <div class="container__dados">
+                <form>
+
+                    <input class="input--geral" type="text" name="userName" id="userName" placeholder="Seu nome" required>
+                    <input class="input--geral" type="email" name="emailUser" id="emailUser" placeholder="Seu e-mail" required>
+                    <input class="input--geral" type="password" name="senhaUser" id="senhaUser" placeholder="Sua senha" required>
+                    <input class="input--geral" type="text" name="jobUser" id="jobUser" placeholder="Qual o seu trabalho?" required>
+                    <input class="input--geral" type="text" name="imgUser" id="imgUser" placeholder="URL da imagem de perfil" required>
+                    <button class="buttonPrimary--geral" id="btnRegistrar" type="submit">Registrar</button>
+                    <p>Já possui login?</p>
+                    <a href="/index.html">Ir para a página de login</a>
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <script type="module" src="../scripts/cadastro.js"></script>
+</body>
+</html>

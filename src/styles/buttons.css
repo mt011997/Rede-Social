@@ -1,0 +1,14 @@
+.buttonPrimary--geral{
+    background-color: var(--brand1);  
+    border: 1px solid var(--brand1);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--whiteFixed);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttonPrimary--geral:hover{
+    background-color: var(--brand2);
+}
+

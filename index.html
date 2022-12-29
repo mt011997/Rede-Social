@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/component.css">
+    <link rel="stylesheet" href="/src/styles/index.css">
+    <link rel="stylesheet" href="/src/styles/input.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <title>Rede Social</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <h1>TechPosters</h1>
+        </div>
+
+        <div class="nav">
+            <a class="nav__icon1" href="/index.html">Login</a>
+            <a class="nav__icon2" href="/src/pages/cadastro.html">Registro</a>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2>Login</h2>
+            <div class="container__dados">
+                <form>
+                    <input class="input--geral" type="email" name="emailUser" id="emailUser" placeholder="Seu e-mail" required>
+                    <input class="input--geral" type="password" name="senhaUser" id="senhaUser" placeholder="Sua senha" required>
+                    <button class="buttonPrimary--geral" id="btnLogin" type="submit">Logar</button>
+                    <p>Ainda não possui seu cadastro?</p>
+                    <a href="/src/pages/cadastro.html">Ir para página de registro</a>
+                </form>
+            </div>
+        </div>
+    </main>
+
+        <div class="modal hidden">
+            <div class="modal__container">
+                <h2 class="modal__container--titulo">Acesso não autorizado</h2>
+                <p class="modal__container--texto">Essa conta não existe, logo não pode acessar a página dos posts</p>
+                <button class="modal__container--button">Entendi</button>
+            </div>
+        </div>
+        <script type="module" src="/src/scripts/index.js"></script>
+</body>
+</html>
